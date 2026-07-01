@@ -1,17 +1,14 @@
-let lampPost 
+let lampPost; 
+let Star;
 
-function preload(){
-lampPost = loadImage('images/lampPost.png')
-}
-
-let Star
-{
-  Star = loadImage('images/Star.png')
+function preload() {
+  lampPost = loadImage("images/lampPost.png");
+  Star = loadImage("images/Star.png");
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
-  imageMode(CENTER)
+  imageMode(CENTER);
 }
 
 function draw() {
@@ -33,5 +30,5 @@ line (400, 100, 300, 50)
   line (580, 200, 370, 25)
 
   image(lampPost, 200, 400)
-  image(Star, 325, 500)
+  image(Star, 350, 450)
 }
