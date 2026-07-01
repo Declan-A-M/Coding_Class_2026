@@ -2,8 +2,8 @@ let lampPost;
 let Star;
 
 function preload() {
-  lampPost = loadImage("images/lampPost.png");
-  Star = loadImage("images/Star.png");
+  lampPost = loadImage("Images/lampPost.png");
+  Star = loadImage("Images/Star.png");
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
