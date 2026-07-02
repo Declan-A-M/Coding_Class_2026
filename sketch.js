@@ -3,9 +3,9 @@ let Star;
 let Bat
 
 function preload() {
-  lampPost = loadImage("images/lampPost.png");
-  Star = loadImage("images/Star.png");
-  Bat = loadImage("images/Bat.jpg");
+  lampPost = loadImage("Images/lampPost.png");
+  Star = loadImage("Images/Star.png");
+  Bat = loadImage("Images/Bat.jpg");
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
