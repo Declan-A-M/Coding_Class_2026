@@ -17,7 +17,7 @@ let winBool = false
 
 
 function preload(){
-	furby = loadImage("furby.png")
+	furby = loadImage("Images/furby.png")
 }
 
 function setup(){
