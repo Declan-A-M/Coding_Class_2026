@@ -1,11 +1,10 @@
-//furby variable
 let furby
-
+let maul
 
 
 function preload(){
 furby = loadImage('images/FighterSelect.png')
-
+maul = loadImage('images/Maul.png')
 }
 
 
@@ -18,18 +17,14 @@ background(95, 21, 5)
 
 function draw(){
 textSize(60)
-text('Lol, A Furby!', 200, 200)
+text('Choose Your Fighter!', 600, 200)
 
  if(mouseIsPressed == true){
  	background(45,23,84)
  }else{
  	background(95,21,5)
  }
-// if(keyIsPressed == true){
-// 	background(0,98,40)
-// }else{
-// 	background(95,21,5)
-// }
+
 image(furby, windowWidth/2, windowHeight/2)
 
 }
