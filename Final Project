@@ -1,30 +1,62 @@
-let furby
+let nyan
+let select
 let maul
-
+let nyan2
+let maul2
+let icebear
+let piccolo
+let blanka
+let raven
+let jake
+let vile
 
 function preload(){
-furby = loadImage('images/FighterSelect.png')
 maul = loadImage('images/Maul.png')
+nyan = loadImage('images/NyanCat.png')
+select = loadImage('images/FighterSelect.png')
+nyan2 = loadImage('images/NyanCat.png')
+maul2 = loadImage('images/MiniMaul.png')
+icebear = loadImage('images/miniicebear.png')
+piccolo = loadImage('images/minipiccolo.png')
+blanka = loadImage('images/miniblanka.png')
+raven = loadImage('images/miniraven.png')
+jake = loadImage('images/minijake.png')
+vile = loadImage('images/minivile.png')
 }
 
 
 function setup(){
 	createCanvas(windowWidth, windowHeight)
 imageMode(CENTER)
-background(95, 21, 5)
+background(120, 21, 5)
 }
 
 
 function draw(){
 textSize(60)
-text('Choose Your Fighter!', 600, 200)
+text('Choose Your Fighter!', 600, 800)
 
  if(mouseIsPressed == true){
  	background(45,23,84)
  }else{
- 	background(95,21,5)
+ 	background(120,21,5)
  }
 
-image(furby, windowWidth/2, windowHeight/2)
-
+image(select, windowWidth/2, windowHeight/2)
+image(nyan, 990, 590)
+image(nyan2, 400, 590)
+image(maul2, 1130, 460)
+image(maul2, 552, 460)
+image(icebear, 700, 595)
+image(icebear, 1260, 595)
+image(piccolo, 264, 460)
+image(piccolo, 842, 460)
+image(blanka, 415, 460)
+image(blanka, 985, 460)
+image(raven, 1267, 460)
+image(raven, 700, 460)
+image(jake, 842, 595)
+image(jake, 245, 595)
+image(vile, 1140, 600)
+image(vile, 552, 590)
 }
