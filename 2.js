@@ -1,10 +1,10 @@
 //furby variable
-let furby 
+let furby
 
 
 
 function preload(){
-furby = loadImage('images/furby.png')
+furby = loadImage('images/FighterSelect.png')
 
 }
 
